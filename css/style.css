@@ -1,0 +1,173 @@
+      @import 'https://fonts.googleapis.com/css?family=Work+Sans';
+      /* uncomment the * css to debug your css */
+      /* * {
+  border: 1px dashed red;
+} */
+      
+      body {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        background: url("https://s31.postimg.org/sknlf098b/DOD_1920x1200.jpg") no-repeat center center fixed;
+        background-size: cover;
+      }
+      
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        font-family: 'Work Sans', sans-serif;
+        color: white;
+        text-shadow: 1px 1px 2px #000000;
+      }
+      
+      footer,
+      header {
+        padding-right: 3vw;
+        color: #fff;
+      }
+      
+      footer {
+        padding-bottom: 1vh;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+      }
+      
+      header {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: end;
+        -webkit-align-items: flex-end;
+            -ms-flex-align: end;
+                align-items: flex-end;
+      }
+      
+      .flex-container {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+      }
+      
+      .flex-content {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 1 80vw;
+            -ms-flex: 1 1 80vw;
+                flex: 1 1 80vw;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-align-self: center;
+            -ms-flex-item-align: center;
+                align-self: center;
+        text-align: center;
+      }
+      
+      #day {
+        font-size: 200%;
+        color: rgba(255, 255, 255, 0.97);
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding-left: 14%;
+        margin-bottom: -15vh;
+      }
+      
+      .flex-content h1 {
+        font-size: 1000%;
+        margin-bottom: -4%;
+      }
+      
+      .flex-content h2 {
+        font-size: 300%;
+        margin-bottom: 3%;
+      }
+      
+      .flex-content h3 {
+        font-size: 200%;
+      }
+      
+      hr {
+        margin-top: 10vh;
+        width: 30vw;
+      }
+      
+      .flex-columns {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 1 10vw;
+            -ms-flex: 1 1 10vw;
+                flex: 1 1 10vw;
+      }
+      
+      #bottom-center {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-align-self: center;
+            -ms-flex-item-align: center;
+                align-self: center;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        text-align: center;
+        padding-left: 6vw;
+      }
+      
+      #fahrenheit,
+      #celsius {
+        font-size: 150%;
+      }
+      
+      #fahrenheit a,
+      #celsius a {
+        color: white;
+      }
+      
+      #weather {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        margin-bottom: -2.75vh;
+      }
+      
+      #weatherIcon img {
+        height: 8vh;
+      }
